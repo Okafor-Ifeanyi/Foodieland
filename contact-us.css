@@ -98,25 +98,21 @@ section.first {
 
 section.first main.hero-page {
     width: 90%;
-}
-
-section.first main.hero-page article {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-section.first main.hero-page article #main {
+section.first main.hero-page  h1{
+
     top: 277px;
     left: 130px;
     gap: 0px;
     opacity: 0px;
     margin: 20px 0;
 
-    /* Typography */
     font-family: Inter;
     font-size: 48px;
     font-weight: 600;
@@ -126,168 +122,106 @@ section.first main.hero-page article #main {
     text-decoration-skip-ink: none;
 }
 
-section.first main.hero-page article div.first {
-    width: 35%;
-    margin-bottom: 30px;
-    /* height: 100px; */
+section.first .hero-page article{
+    width: 90%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 200;
-    line-height: 16.94px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    text-align: center;
 }
 
-section.first main.hero-page article div.first p {
-    border-left: 1px solid rgba(28, 23, 23, 0.1);
-    padding: 0 10px;
-}
-
-section.first main.hero-page article div.first img {
-    width: 30px;
-    margin-right: -20px
-}
-
-section.first main.hero-page article p.main {
-    width: 80%;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-}
-
-/* Section 2 */
-section.second {
-    width: 90%;
-    margin: 20px auto;
-}
-
-section.second main.categories {
-    width: 100%;
+section.first .hero-page article div.image{
+    /* width: 30%; */
+    width: 300px;
+    height: 600px;
+    /* height: 90; */
+    height: 100%;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
     border-radius: 20px;
 }
 
-section.second main.categories img{
-    width: 100%;
-    border-radius: 30px;
+section.first .hero-page article div.image img{
+width: 90%;
 }
 
-
-/* Section 3 */
-section.third {
-    width: 80%;
-    margin: 40px auto;
+section.first .hero-page article div.first {
+    width: 70%;
 }
 
-section.third main.simple-tasty {
+section.first .hero-page article div.first form  {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    text-align: left;
 }
 
-section.third main.simple-tasty .notes {
-    width: 70%
-}
-
-section.third main.simple-tasty .notes article{
-    padding: 0 30px;
-    width: 100%;
+section.first .hero-page article div.first form .form {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 20px;
+    /* align-items: flex-start; */
 }
 
-section.third main.simple-tasty .notes article h1{
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29.05px;
-    letter-spacing: -0.04em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin: 20px 0;
-}
-
-section.third main.simple-tasty .notes article p{
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    /* margin: 20px 0; */
-
-}
-
-section.third main.simple-tasty .notes article.first {
-    margin-top: -20px;
-    margin-bottom: 40px;
-}
-
-section.third main.simple-tasty .notes article.second {
-    margin-bottom: 40px;    
-}
-
-section.third main.simple-tasty .notes article.third {
-    margin-bottom: 30px;    
-}
-
-section.third main.simple-tasty .notes article.third img {
+section.first .hero-page article div.first form .form input,
+section.first .hero-page article div.first form .form select,
+section.first .hero-page article div.first form .form textarea,
+section.first .hero-page article div.first form .form button {
     width: 100%;
-    margin-bottom: 20px;    
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    /* margin: 15px 0; */
 }
 
-section.third main.simple-tasty .notes article.fourth {
-    margin-bottom: 30px;    
-}
-
-section.third main.simple-tasty .notes article.fifth {
-    padding: 30px 0;   
-    margin: 50px 0;
-    border: 1px solid linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);;
-    border-right: none;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-section.third main.simple-tasty .notes article.fifth h1{
-    padding: 0 30px;
+section.first .hero-page article div.first form .form label,
+section.first .hero-page article div.first form .form select,
+section.first .hero-page article div.first form .form textarea,
+section.first .hero-page article div.first form .form button {
     font-family: Inter;
-    font-size: 24px;
-    font-style: italic;
+    font-size: 12px;
     font-weight: 500;
-    /* line-height: 64px; */
-    letter-spacing: -0.04em;
+    line-height: 20px;
+    letter-spacing: 0.08em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
 
-section.third main.simple-tasty .socials{
-    height: 170px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+/* #norm {
+    margin-bottom: 10px;
+} */
+
+section.first .hero-page article div.first form .form select {
+    height: 50px;
 }
 
-section.third main.simple-tasty .socials h1{
-    font-size: 18px;
+section.first .hero-page article div.first form .form.fifth {
+    width: 100%;
+    text-align: left;
+    height: 200px;
 }
 
+section.first .hero-page article div.first form .form.fifth textarea {
+    height: 148.5px;
+    border-radius: 20px ;
+}
+
+section.first .hero-page article div.first button {
+    padding: 20px 30px;
+    margin-left: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
 /* Section 6 */
 section.sixth {
     width: 90%;
