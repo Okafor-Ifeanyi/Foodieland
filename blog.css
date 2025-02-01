@@ -73,6 +73,55 @@ header.hero nav h1 {
     text-decoration-skip-ink: none;
 }
 
+header.hero nav a {
+    text-decoration: none;
+    color: black;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+}
+
+/* ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 1rem 2rem;
+    position: relative;
+} */
+
+header.hero nav a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: -5px 0;
+    height: 2px;
+    background-color: #000000;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: left;
+}
+
+header.hero nav a:hover:before,
+header.hero nav a:hover:after {
+    transform: scale(1);
+}
+
+header.hero nav a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: -5px 0;
+    height: 2px;
+    background-color: #000000;
+    transform: scaleX(0);
+    transition: all 1s;
+    transform-origin: right;
+}
+
 /* header.hero div {
     width: 10%;
     display: flex;
@@ -538,6 +587,55 @@ footer section.footer-header nav h1 {
 footer section.footer-header nav a {
     text-decoration: none;
     color: black;
+}
+
+footer section.footer-header nav a {
+    text-decoration: none;
+    color: black;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+}
+
+/* ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 1rem 2rem;
+    position: relative;
+} */
+
+footer section.footer-header nav a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: -5px 0;
+    height: 2px;
+    background-color: #000000;
+    transform: scale(0);
+    transition: all 1s;
+    transform-origin: left;
+}
+
+footer section.footer-header nav a:hover:before,
+footer section.footer-header nav a:hover:after {
+    transform: scale(1);
+}
+
+footer section.footer-header nav a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: -5px 0;
+    height: 2px;
+    background-color: #000000;
+    transform: scaleX(0);
+    transition: all 1s;
+    transform-origin: right;
 }
 
 footer p {
