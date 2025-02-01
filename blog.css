@@ -1,0 +1,575 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    font-family: inter;
+}
+
+/* Header */
+header.hero {
+    width: 90%;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.hero cite, 
+footer .footer-header cite{
+    /* Layout */
+    width: 110px;
+    height: 30px;
+    top: 40px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+
+    /* Typeography */
+    font-family: "Lobster";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* color: red; */
+}
+
+header.hero span,
+footer .footer-header span {
+    font-family: Lobster;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: orange;
+}
+
+header.hero nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.hero nav h1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* header.hero div {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
+header.hero svg {
+    margin: 0 10px
+}
+
+/* Section 1 */
+section.first {
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 30px 0;
+    /* margin-bottom: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section.first main.hero-page {
+    width: 90%;
+}
+
+section.first main.hero-page article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+section.first main.hero-page article #main {
+    top: 277px;
+    left: 130px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 20px 0;
+
+    /* Typography */
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+section.first main.hero-page article div.first {
+    width: 35%;
+    margin-bottom: 30px;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+section.first main.hero-page article div.first p {
+    border-left: 1px solid rgba(28, 23, 23, 0.1);
+    padding: 0 10px;
+}
+
+section.first main.hero-page article div.first img {
+    width: 30px;
+    margin-right: -30px
+}
+
+section.first main.hero-page article p.main {
+    width: 80%;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* Section 2 */
+section.second {
+    width: 90%;
+    margin: 20px auto;
+}
+
+section.second main.categories {
+    width: 100%;
+    border-radius: 20px;
+}
+
+section.second main.categories img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+/* Section 3 */
+section.third {
+    width: 80%;
+    margin: 40px auto;
+}
+
+section.third main.simple-tasty {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section.third main.simple-tasty .notes {
+    width: 70%
+}
+
+section.third main.simple-tasty .notes article{
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section.third main.simple-tasty .notes article h1{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 20px 0;
+}
+
+section.third main.simple-tasty .notes article p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* margin: 20px 0; */
+
+}
+
+section.third main.simple-tasty .notes article.first {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+section.third main.simple-tasty .notes article.second {
+    margin-bottom: 40px;    
+}
+
+section.third main.simple-tasty .notes article.third {
+    margin-bottom: 30px;    
+}
+
+section.third main.simple-tasty .notes article.third img {
+    width: 100%;
+    margin-bottom: 20px;    
+}
+
+section.third main.simple-tasty .notes article.fourth {
+    margin-bottom: 30px;    
+}
+
+section.third main.simple-tasty .notes article.fifth {
+    padding: 30px 0;   
+    margin: 50px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+section.third main.simple-tasty .notes article.fifth h1{
+    padding: 0 30px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    /* line-height: 64px; */
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+section.third main.simple-tasty .socials{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.third main.simple-tasty .socials h1{
+    font-size: 18px;
+}
+
+/* Section 6 */
+section.sixth {
+    width: 90%;
+    margin: 80px auto;
+}
+
+section.sixth main.delicious-recipe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.sixth main.delicious-recipe article {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.sixth main.delicious-recipe article h1.header-1 {
+    width: 100%;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 38.09px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+section.sixth main.delicious-recipe article p.header-2 {
+    width: 50%;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+section.sixth main.delicious-recipe div.delicious-menu-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+section.sixth main.delicious-recipe div.delicious-menu-list div.menu-item {
+    width: 21%;
+    margin: 20px 0;
+}
+
+section.sixth main.delicious-recipe div.delicious-menu-list div.menu-item img {
+    width: 100%;
+}
+
+section.sixth main.delicious-recipe div.delicious-menu-list article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+section.sixth main.delicious-recipe div.delicious-menu-list div.menu-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.sixth main.delicious-recipe div.delicious-menu-list article h3{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+section.sixth main.delicious-recipe div.delicious-menu-list .menu-details {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+section.sixth main.delicious-recipe .menu-details svg {
+    margin-right: 5px;
+    width: 20px;
+}
+
+section.sixth main.delicious-recipe .menu-details p {
+    margin-right: 15px;
+    font-weight: 300;
+    font: inter;
+}
+
+/* Section 7 */
+section.seventh {
+    width: 90%;
+    margin: 80px auto;
+}
+
+section.seventh main.inbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(231, 249, 253, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+section.seventh main.inbox article{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+section.seventh main.inbox article h1{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 10px;
+}
+
+section.seventh main.inbox article p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 50px;
+}
+
+section.seventh main.inbox article div.email {
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.seventh main.inbox article div.email input{
+    background-color: none;
+    padding-left: 20px;
+    border: none;
+}
+
+section.seventh main.inbox article div.email button{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+section.seventh main.inbox img {
+    position: absolute;
+    width: 230px;
+    bottom: 0;
+}
+
+section.seventh main.inbox img.salad {
+    left: 0;
+    /* bottom: 2%; */
+    width: 290px;
+    transform: rotateX(20);
+}
+
+section.seventh main.inbox img.curry-rucola {
+    left: 73%;
+    bottom: 22%;
+    width: 80px;
+}
+
+section.seventh main.inbox img.avocado {
+    left: 80%;
+}
+
+footer {
+    width: 90%;
+    margin: 80px auto 0 auto;
+}
+
+footer section.footer-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+footer section.footer-header nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section.footer-header nav h1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+footer section.footer-header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+footer section.footer-foot {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+footer section.footer-foot div.space {
+    width: 10%;
+}
+
+footer section.footer-foot div.socials {
+    /* width: 15%; */
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

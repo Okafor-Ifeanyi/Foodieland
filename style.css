@@ -716,7 +716,7 @@ section.fifth section.reel figure header{
 }
 
 section.fifth section.reel figure header img{
-    width: 10px;
+    width: 18px;
     margin-right: 5px;
 }
 
@@ -734,7 +734,7 @@ section.fifth section.reel figure .insta-text{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    font-size: 5px;
+    font-size: 8px;
 }
 
 section.fifth section.reel figure .insta-text div.verification {
@@ -905,7 +905,7 @@ section.sixth main.delicious-recipe div.delicious-menu-list article {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
