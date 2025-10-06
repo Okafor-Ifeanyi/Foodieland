@@ -12,7 +12,7 @@ body {
     background-color: white;
     font-family: Inter;
     opacity: 0;
-    animation: fadeIn 0.5s ease-in-out forwards;
+    animation: fadeIn 0.01s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
