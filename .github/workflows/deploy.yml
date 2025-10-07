@@ -19,4 +19,4 @@ jobs:
             passphrase: ${{ secrets.SSH_PASSWORD }}
             script: |
               cd public_html/testing
-              git pull origin master
+              git pull origin main
